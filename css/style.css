@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Oranienbaum', serif;
+    
+}
+body{
+    background-color:white;
+}
+.contenedor-bnav{
+    width: 100%;
+    height: 900px;
+    background-image:url(../img/vector.svg);
+    background-size: cover;
+
+}
+.bnav{
+    font-family: 'Oranienbaum', serif;
+    display: flex;
+   flex-direction: column;
+    margin-top: 1px;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(48, 44, 44, 0.336);
+    object-fit:  ;
+    backdrop-filter: blur(5px);
+    justify-content: flex-end;
+    
+}
+.bnav1{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid 2px rgba(0, 0, 0, 0.623);
+    position: sticky;
+    top: 0;
+    
+}
+
+.imgnav{
+    width:288px;
+    margin-left: 2px;
+    align-self:flex-start ;
+    margin-right: 0;
+    border-radius: 50px;
+    
+}
+.imgnav img{
+    width: 100%;
+    height: 200px;
+    object-fit:scale-down;
+    
+}
+.textnav{
+    width: 40%;
+    color:#000000;
+    align-self: center;
+    font-size: 170%;
+    text-align: left;
+    margin-left: 680px;
+    margin-top: 60px;
+    
+    }
+    .textnav span{
+        height: 1px;
+        width: 100%;
+        background-color: cornsilk;
+        border: 1px solid rgb(255, 255, 255)
+        
+    }
+.textnav_a{
+    text-decoration: none;
+    color: black;
+    border-radius: 50rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 35rem;
+    padding: 8px 25px;
+    transition: all 1s;
+    transform: scale(1);
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    
+}    
+.textnav_h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:initial;
+    font-size: 260%;
+}
+.contenedor-boton{
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.boton{
+    
+    background-color: none;
+    align-self: center;
+    border-radius: 50rem;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px 30px;
+    display: inline-block;
+    justify-content: flex-end;
+    font-size: 15px;
+    
+}
+.boton:hover {
+    background-color: rgb(0, 0, 0);
+    
+}
+.boton:hover a {
+    color: rgba(255, 255, 255, 0.767);
+    
+}
+.boton a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Pacifico', cursive;
+    
+}
+.contenedor_enlaces-fixed{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px) ;
+    margin-top: -20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.678);
+}
+
+.enlaces-fixed{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    
+    
+
+}
+.enlaces-fixed div {
+    background-color: ;
+    align-self: center;
+    width: 15%;
+    height: 30px;
+    backdrop-filter: blur(10px) ;
+    text-align: center;
+    border-radius: 20px;
+    border:1px solid rgb(255, 255, 255);
+    padding: 8px ;
+}
+.enlaces-fixed div a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}    
+    
+
+.contentpag{
+    display: flex;
+    width: 100%;
+    height: 800px;
+
+    
+}
+.contentpag-img{
+ width: 45%;
+}
+.contentpag img{
+    width: 75%;
+    height: 500px;
+    margin-top: 150px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.contentpag-texto{
+    width: 45%;
+    align-self: center;
+}
+.contentpag-texto h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    color: #86a920;
+    
+    font-weight: 700;
+} 
+.contentpag-texto p{
+    font-family: 'Oranienbaum', cursive;
+    font-size: 20px;
+    
+} 
+
+
+.sectiondir{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+    background-image:url(https://raw.githubusercontent.com/HUMB3-dev/UCA/main/123.jpg);
+    
+}
+.sectiondir-items{
+    width: 45%;
+    align-self: center;
+    background-color: rgb(250, 250, 250);
+    height:200px;
+    /*border: 5px dashed rgb(78, 202, 20);*/
+    margin: 10px;
+    border-radius: 0.5rem;
+
+}
+
+.aaa{
+    width:40%;
+    height: 100%;
+    transition: scale 1s;
+    border-radius: 100%;
+    border: 10px double #5384c49f;
+}
+@media screen and (max-width:450px) {
+    .bnav{
+        font-family: 'Oranienbaum', serif;
+        display: flex;
+        
+        width: 100%;
+        height: 400px;
+        background-image:none;
+        background-color: rgba(6, 79, 139, 0.247);
+        margin-top: 1px;
+        text-align: center;
+        justify-content: space-between;
+        box-shadow: 5px 5px 5px rgba(48, 44, 44, 0.336);
+    }
+    .contenedor-bnav{
+        width: 100%;
+        height: 400px;
+        background-image:url(../img/vector.svg);
+        background-size: cover;
+    
+    }
+    .imgnav{
+        width:40%;
+        margin-left: 2px;
+        align-self:flex-start ;
+        margin-left:-16px;
+        margin-top: -60px;
+        
+    }
+    .imgnav img{
+        width: 70%;
+        filter: grayscale(0.4);
+        object-fit:scale-down;
+        
+    }
+    .textnav{
+        width: 60%;
+        color:#ffffff;
+        align-self: center;
+        font-size: 70%;
+        text-align: left;
+        margin-left:50px;
+        margin-top: 60px;
+        position: absolute;
+    }
+    .textnav span{
+        height: 1px;
+        width: 100%;
+        background-color: cornsilk;
+        border: 1px solid rgb(255, 255, 255)
+        
+    }
+.textnav_a{
+    text-decoration: none;
+    color: black;
+    border-radius: 50rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    border-radius: 35rem;
+    padding: 8px 25px;
+    transition: all 1s;
+    transform: scale(1);
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    
+}    
+.textnav_h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:initial;
+    font-size: 260%;
+}
+.contenedor-boton{
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.boton{
+    
+    background-color: none;
+    align-self: center;
+    border-radius: 50rem;
+    border-color: rgb(252, 252, 252);
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px 20px;
+    display: inline-block;
+    margin-top:-10px;
+    font-size: 10px;
+    
+}
+.boton:hover {
+    background-color: white;
+    
+}
+.boton:hover a {
+    color: rgba(0, 0, 0, 0.767);
+    
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+    
+    
+}
+
