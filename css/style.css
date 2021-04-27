@@ -23,7 +23,7 @@ body{
     text-align: center;
     justify-content: space-between;
     box-shadow: 5px 5px 5px rgba(48, 44, 44, 0.336);
-    object-fit:  ;
+    
     backdrop-filter: blur(5px);
     justify-content: flex-end;
     
@@ -33,7 +33,7 @@ body{
     height: 80px;
     background-color: rgb(255, 255, 255);
     border-bottom: solid 2px rgba(0, 0, 0, 0.623);
-    position: sticky;
+    position: fixed;
     top: 0;
     
 }
@@ -151,7 +151,7 @@ body{
 
 }
 .enlaces-fixed div {
-    background-color: ;
+    
     align-self: center;
     width: 15%;
     height: 30px;
