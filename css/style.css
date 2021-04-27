@@ -11,7 +11,7 @@ body{
 .contenedor-bnav{
     width: 100%;
     height: 900px;
-    background-image:url(../img/vector.svg);
+    background-image:url(../img/124.jpg);
     background-size: cover;
 
 }
@@ -30,14 +30,19 @@ body{
 }
 .bnav1{
     width: 100%;
-    height: 80px;
-    background-color: rgb(255, 255, 255);
+    height: 120px;
+    background-color:none;
     border-bottom: solid 2px rgba(0, 0, 0, 0.623);
     position: fixed;
     top: 0;
+    transition: all 1s;
+    display: flex;
+    justify-content: space-between;
     
 }
-
+.bnav1:hover{
+    background-color: white;
+}
 .imgnav{
     width:288px;
     margin-left: 2px;
@@ -93,9 +98,10 @@ body{
     font-size: 260%;
 }
 .contenedor-boton{
-    align-self: flex-start;
-    margin-top: 20px;
-    margin-right: 20px;
+    align-self: center;
+    width:auto;
+    
+    
     
 }
 .boton{
