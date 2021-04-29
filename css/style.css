@@ -10,50 +10,29 @@ body{
 }
 .contenedor-bnav{
     width: 100%;
-    height: 900px;
+    height: 700px;
     background-image:url(../img/125.jpg);
     background-size: cover;
+    
 
 }
-.bnav{
-    font-family: 'Oranienbaum', serif;
-    flex-direction: row;
-    margin-top: 1px;
-    text-align: center;
-    justify-content: center;
-    box-shadow: 5px 5px 5px rgba(48, 44, 44, 0.336);
-    backdrop-filter: blur(1.6px);
-    height: 100%;
-    }
+
 .bnav1{
     width: 100%;
     height: 80px;
     background-color:none;
-    border-bottom: solid 2px rgba(0, 0, 0, 0.623);
-    background-color: white;
+    /*border-bottom: solid 2px rgba(0, 0, 0, 0.623);*/
+    background: linear-gradient(to right, rgba(2, 98, 177, 0.452) 0% , rgba(6, 80, 129, 0.555) 25%, rgba(15, 223, 126, 0.541) 50%);
     top: 0;
     transition: all 1s;
     display: flex;
     justify-content: space-between;
     position: fixed;
     z-index: 50;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(50px);
 }
 
-.imgnav{
-    width:288px;
-    margin-left: 2px;
-    align-self:flex-start ;
-    margin-right: 0;
-    border-radius: 50px;
-    
-}
-.imgnav img{
-    width: 100%;
-    height: 200px;
-    object-fit:scale-down;
-    
-}
+
 .textnav{
     width: 50%;
     color:hsl(0, 81%, 4%);
@@ -63,7 +42,7 @@ body{
     position: relative;
     top: 400px;
     right: -10%;
-    background-color: rgba(255, 255, 255, 0.432);
+    
     border-radius: 5px;
     backdrop-filter: blur(2px);
     box-shadow:  15px 15px 3px 3px rgba(0, 0, 0, 0.185);
@@ -110,7 +89,7 @@ body{
     background-color: none;
     align-self: center;
     border-radius: 50rem;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     border-style: solid;
     border-width: 1px;
     padding: 8px 30px;
@@ -133,13 +112,13 @@ body{
 }
 .boton1 a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Pacifico', cursive;
     
 }
 
 .boton:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     
 }
 .boton:hover a {
@@ -148,7 +127,7 @@ body{
 }
 .boton a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Pacifico', cursive;
     
 }
@@ -159,16 +138,16 @@ body{
     justify-content: space-around;
     position: relative;
     top: 50px;
+    flex-wrap: wrap;
     
 }
 .contentpag-items{
+    min-width: 250px;
     width: 20%;
+    max-width: 100%;
     height: 300px;
-    
-    
-    
-    
-}
+    margin-top: 20px;
+    }
 .contentpag-items_img{
     width: 100%;
     height: 100%;
@@ -178,7 +157,7 @@ body{
 .contentpag-text{
     width: 85%;
     height: 30%;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(209, 206, 6) 0% , rgba(134, 233, 35, 0.897) 25%, rgb(15, 223, 126) 50%);
     position: relative;
     top: -22%;
     left: 15%;
@@ -194,147 +173,42 @@ body{
     padding: 3%;
     text-align: left;
 }
-
-
-
-
-
-.sectiondir{
-    display: flex;
+.main{
     width: 100%;
     height: 300px;
-    justify-content: space-between;
-    background-image:url(https://raw.githubusercontent.com/HUMB3-dev/UCA/main/123.jpg);
-    
-}
-.sectiondir-items{
-    width: 45%;
-    align-self: center;
-    background-color: rgb(250, 250, 250);
-    height:200px;
-    /*border: 5px dashed rgb(78, 202, 20);*/
-    margin: 10px;
-    border-radius: 0.5rem;
-
+    background: linear-gradient(to right, rgb(209, 206, 6) 0% , rgba(134, 233, 35, 0.897) 25%, rgb(15, 223, 126) 50%);
+    display: flex;
+    position: relative;
+    top: 400px;
 }
 
-.aaa{
-    width:40%;
-    height: 100%;
-    transition: scale 1s;
-    border-radius: 100%;
-    border: 10px double #5384c49f;
+/*css formulario de la pagina*/
+.body_form{
+    background-color: red;
 }
-@media screen and (max-width:450px) {
-    .bnav{
-        font-family: 'Oranienbaum', serif;
-        display: flex;
-        
-        width: 100%;
-        height: 400px;
-        background-image:none;
-        background-color: rgba(6, 79, 139, 0.247);
-        margin-top: 1px;
-        text-align: center;
-        justify-content: space-between;
-        box-shadow: 5px 5px 5px rgba(48, 44, 44, 0.336);
-    }
-    .contenedor-bnav{
-        width: 100%;
-        height: 400px;
-        background-image:url(../img/vector.svg);
-        background-size: cover;
-    
-    }
-    .imgnav{
-        width:40%;
-        margin-left: 2px;
-        align-self:flex-start ;
-        margin-left:-16px;
-        margin-top: -60px;
-        
-    }
-    .imgnav img{
-        width: 70%;
-        filter: grayscale(0.4);
-        object-fit:scale-down;
-        
-    }
-    .textnav{
-        width: 60%;
-        color:#ffffff;
-        align-self: center;
-        font-size: 70%;
-        text-align: left;
-        margin-left:50px;
-        margin-top: 60px;
-        position: absolute;
-    }
-    .textnav span{
-        height: 1px;
-        width: 100%;
-        background-color: cornsilk;
-        border: 1px solid rgb(255, 255, 255)
-        
-    }
-.textnav_a{
-    text-decoration: none;
-    color: black;
-    border-radius: 50rem;
-    border-color: white;
-    border-style: solid;
-    border-width: 1px;
-    background-color: white;
-    border-radius: 35rem;
-    padding: 8px 25px;
-    transition: all 1s;
-    transform: scale(1);
-    margin-top: 20px;
-    display: inline-block;
-    text-align: center;
-    width: 80px;
-    
-}    
-.textnav_h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style:initial;
-    font-size: 260%;
-}
-.contenedor-boton{
-    align-self: flex-start;
-    margin-top: 20px;
-    margin-right: 20px;
-    
-}
-.boton{
-    
+.container{
+    display: flex;
+    width: 50%;
+    height: 700px;
+    margin: auto;
+   
+    margin-top: 50px;
     background-color: none;
-    align-self: center;
-    border-radius: 50rem;
-    border-color: rgb(252, 252, 252);
-    border-style: solid;
-    border-width: 1px;
-    padding: 4px 20px;
-    display: inline-block;
-    margin-top:-10px;
-    font-size: 10px;
     
 }
-.boton:hover {
-    background-color: white;
+.flex-item_photo{
+    width: 50%;
+    background-image: url(../img/125.jpg);
     
+
 }
-.boton:hover a {
-    color: rgba(0, 0, 0, 0.767);
-    
-}
-.boton a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Pacifico', cursive;
+.flex-item_form{
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 50%;
+    backdrop-filter: blur(2px);
 }
 
-    
-    
-}
 
+
+@media screen and (max-width:450px) {
+    
