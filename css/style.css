@@ -118,11 +118,11 @@ body{
 }
 
 .boton:hover {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     
 }
 .boton:hover a {
-    color: rgba(5, 3, 3, 0.767);
+    color: rgba(7, 1, 1, 0.767);
     
 }
 .boton a{
