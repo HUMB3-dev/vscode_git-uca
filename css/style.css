@@ -10,7 +10,7 @@ body{
 }
 .contenedor-bnav{
     width: 100%;
-    height: 720px;
+    height: 700px;
     
     
     
@@ -133,64 +133,71 @@ body{
     
 }
 .contentpag{
+
     display: flex;
     width: 100%;
     height: 60px;
-    justify-content: space-around;
+    
     position: relative;
-    top: 10px;
+    font-size: 200px;
     flex-wrap: wrap;
+    color: whitesmoke;
+    
     
 }
 .contentpag-items{
     min-width: 200px;
-    width: 18%;
-    max-width: 100%;
-    height: 300px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    height: 340px;
     margin-top: 0px;
-    
-    
+    ]
+    align-content: center;
     }
-.contentpag-items_img{
-    width: 100%;
-    height: 100%;
-    object-fit:cover ;
-    border-radius: 3px;
-    border-radius: %;
+.contentpag-items1 {
+    background-color: rgb(233, 181, 37);
     
+        
+    }  
+.contentpag-items2 {
+       background-color: rgb(77, 199, 199); 
+    }  
+.contentpag-items3 {
+        background-color: rgb(29, 32, 240);
+    }  
+.contentpag-items4 {
+        background-color: rgb(90, 13, 126);
+    } 
+ .fa-address-book{
+     
+     position: relative;
+     
+ }
+ .icon1 a i{
+     text-decoration: none;
+     color: whitesmoke;
+ }
+ .icon2 a i{
+    text-decoration: none;
+    color: whitesmoke;
 }
-.contentpag-text{
-    width: 85%;
-    height: 40%;
-    /*background: linear-gradient(to right, rgb(209, 206, 6) 0% , rgba(134, 233, 35, 0.897) 25%, rgb(15, 223, 126) 50%);*/
-    background: rgb(3, 22, 46);
-    position: relative;
-    top: -22%;
-    left: 15%;
-    backdrop-filter: blur(10px);
-    border-radius: 5%;
-    border:3px solid rgba(54, 71, 226, 0.205);
-    border-bottom: none;
+.icon3 a i{
+    text-decoration: none;
+    color: whitesmoke;
 }
-.contentpag-text h6{
-    font-size: 20px;
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+.icon4 a i{
+    text-decoration: none;
+    color: whitesmoke;
 }
-.contentpag-text p{
-    font-family: 'Roboto', sans-serif;
-    padding: 3%;
-    text-align: left;
-    color: thistle;
-}
+ 
 .main{
     width: 100%;
-    height: 300px;
-    background-color: rgb(3, 22, 46);
-    display: flex;
-    position: relative;
-    top: 400px;
+    height: 600px;
+    background-color: rgb(224, 224, 224);
+    display: grid;
+    
+    
 }
 
 /*css formulario de la pagina*/
@@ -229,10 +236,14 @@ body{
     height: 16px !important;
     border:2px solid white;
     bottom: 40px;
+    border-radius: none !important;
 }
 .c1{
-    background-image: url(../img/125.jpg) !important ;
+    /*background-image: url(https://www.itep.es/wp-content/uploads/2021/01/Te%CC%81cnico-Superior-en-Transporte-y-Logi%CC%81stica.jpg) !important ;
+    background-repeat: no-repeat;
+    background-size:initial;*/
 }
+
 .indicator-item:hover{
     background: rgb(3, 11, 82)  !important;
 }
