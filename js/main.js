@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',()=>{
 const elementosCarousel= document.querySelectorAll('.carousel');
 M.Carousel.init(elementosCarousel ,{
-    duration:150,
+    duration:200,
     
 indicators:true,
    
@@ -23,3 +23,4 @@ document.addEventListener('DOMContentLoaded', function() {
   // Or with jQuery
 
   $('.dropdown-trigger').dropdown();
+

@@ -230,7 +230,7 @@ body{
     background: rgba(119, 119, 118, 0.089) !important;
     width: 16px  !important;
     height: 16px !important;
-    border:2px solid white;
+    border:2px solid rgb(0, 0, 0);
     bottom: 40px;
     border-radius: none !important;
 }
