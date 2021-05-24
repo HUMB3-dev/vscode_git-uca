@@ -20,9 +20,8 @@ body{
 .bnav1{
     width: 100%;
     height: 80px;
-    background-color:rgb(3, 22, 46);
-    /*border-bottom: solid 2px rgba(0, 0, 0, 0.623);*/
-    /*background: linear-gradient(to right, rgba(2, 98, 177, 0.452) 0% , rgba(6, 80, 129, 0.555) 25%, rgba(15, 223, 126, 0.541) 50%);*/
+    background-color:rgb(255, 255, 255);
+    
     top: 0;
     transition: all 1s;
     display: flex;
@@ -30,66 +29,26 @@ body{
     position: fixed;
     z-index: 50;
     backdrop-filter: blur(50px);
+    
 }
 
-
-.textnav{
-    width: 50%;
-    color:hsl(0, 81%, 4%);
-    align-self: center;
-    font-size: 170%;
-    text-align: left;
-    position: relative;
-    top: 400px;
-    right: -10%;
-    
-    border-radius: 5px;
-    backdrop-filter: blur(2px);
-    box-shadow:  15px 15px 3px 3px rgba(0, 0, 0, 0.185);
-    }
-    .textnav span{
-        height: 1px;
-        width: 100%;
-        background-color: cornsilk;
-        border: 1px solid rgb(255, 255, 255)
-        
-    }
-.textnav_a{
-    text-decoration: none;
-    color: black;
-    border-radius: 50rem;
-    border-color: white;
-    border-style: solid;
-    border-width: 1px;
-    background-color: white;
-    border-radius: 35rem;
-    padding: 8px 25px;
-    transition: all 1s;
-    transform: scale(1);
-    margin-top: 20px;
-    display: inline-block;
-    text-align: center;
-    width: 150px;
-    
-}    
-.textnav_h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style:initial;
-    font-size: 260%;
-}
-.contenedor-boton{
+.contenedor-boton {
     align-self: center;
     width:auto;
     
     
     
+    
+}
+.contenedor-boton a{
+    font-family: 'Anton', sans-serif;
 }
 .boton{
     
     background-color: none;
     align-self: center;
     border-radius: 50rem;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
     border-style: solid;
     border-width: 1px;
     padding: 8px 30px;
@@ -113,50 +72,64 @@ body{
 }
 .boton1 a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: 'Pacifico', cursive;
+    color: rgb(0, 0, 0);
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
     
 }
 
 .boton:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(136, 136, 136);
     
 }
 .boton:hover a {
-    color: rgba(7, 1, 1, 0.767);
+    color: rgba(255, 255, 255, 0.767);
     
 }
 .boton a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: 'Pacifico', cursive;
+    color: rgb(0, 0, 0);
+    font-family: 'Anton', sans-serif;
     
+}
+.c1{
+    background-image: url(../img/20200717_163827.jpg);
+    background-size:2000px;
+}
+.c2{
+    background-image: url(../img/20200723_185729.jpg);
+    background-size:2000px;
+}
+.c3{
+    background-image: url(../img/20200723_185745.jpg);
+    background-size:2000px;
+}
+.c4{
+    background-image: url(../img/20200723_185830.jpg);
+    background-size:2000px;
 }
 .contentpag{
 
     display: flex;
     width: 100%;
-    height: 60px;
-    
-    position: relative;
-    font-size: 200px;
+    height: 250px;
+    font-size: 150px;
     flex-wrap: wrap;
     color: whitesmoke;
     
     
 }
 .contentpag-items{
-    min-width: 200px;
     width: 25%;
+    min-width: 200px;
     display: flex;
     justify-content: center;
-    height: 340px;
-    margin-top: 0px;
-    ]
+    height: 250px;
     align-content: center;
-    }
+}
+    
 .contentpag-items1 {
-    background-color: rgb(233, 181, 37);
+    background-color: rgb(63, 160, 71);
     
         
     }  
@@ -191,15 +164,38 @@ body{
     color: whitesmoke;
 }
  
-.main{
+.oferta{
     width: 100%;
-    height: 600px;
+    height: 330px;
     background-color: rgb(224, 224, 224);
-    display: grid;
-    
+    font-family: 'Anton', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.oferta h1{
+    font-family: 'Anton', sans-serif; 
+    color:rgb(23, 48, 160) ;
+    font-size: px;
+}
+.oferta p{
+    color: black;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
     
 }
-
+.oferta-h1{
+    height: auto;
+    width: auto;
+     align-self: center;
+}
+.oferta-p{
+    height: 70%;
+    width: 70%;
+    
+    align-self: center;
+    text-align: center;
+}
 /*css formulario de la pagina*/
 .body_form{
     background-color: red;
@@ -238,16 +234,12 @@ body{
     bottom: 40px;
     border-radius: none !important;
 }
-.c1{
-    /*background-image: url(https://www.itep.es/wp-content/uploads/2021/01/Te%CC%81cnico-Superior-en-Transporte-y-Logi%CC%81stica.jpg) !important ;
-    background-repeat: no-repeat;
-    background-size:initial;*/
-}
+
 
 .indicator-item:hover{
     background: rgb(3, 11, 82)  !important;
 }
-}
+
 
 @media screen and (max-width:450px) {
     
